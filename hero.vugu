@@ -1,8 +1,9 @@
 <div>
 <div class="hero-section">
-  <div class="hero-section-background"style="background-image: url('./hero-background.jpg');">
+  <div class="hero-section-background"style="background-image: url('./static/images/example-hero.webp');">
+<!-- TODO make hero section larger -->
     <div class="hero-section-content">
-      <h1 class="hero-section-title">Software Engineer | Go | VR | Politics | Philosophy</h1>
+      <h1 class="hero-section-title">Wasmdude</h1>
       <p class="hero-section-subtitle">Bringing the future to life through code</p>
     </div>
   </div>

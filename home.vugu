@@ -1,8 +1,8 @@
 <div>
 
-    <pages role="pages" class="container text-center">
-        <pages:Navigation></pages:Navigation>
-        <pages:Hero ></pages:Hero>
+    <main role="main" class="container text-center">
+        <main:Navigation></main:Navigation>
+        <main:Hero ></main:Hero>
         <div class="mt-5">
             <h2>Latest Article</h2>
             <p> <a href="https://diogenesoftoronto.github.io/blog/2020/05/31/why-i-am-post-anarchist-adjacent.html">Why I am post-anarchist adjacent</a></p>
@@ -21,8 +21,10 @@
                     <li> <a href="https://github.com/Diogenesoftoronto/write-and-wood">write-and-wood</a> - This project was created to make it easier to improve as a creative writer. Making writing collaborative and competitive is the goal.
                     </ul>
                 </div>
-                <pages:Footer />
-            </pages>
+                <main:Footer />
+            </main>
         </div>
 
 
+<style>
+</style>

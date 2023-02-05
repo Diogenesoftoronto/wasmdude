@@ -1,3 +1,3 @@
-package pages
+package main
 
 type Home struct{}
