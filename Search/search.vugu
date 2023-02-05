@@ -1,0 +1,7 @@
+<div>
+    <input type="text"/>
+    <ul>
+    <li>Search Results</li>
+    </ul>
+</div>
+<script>type Search struct {}</script>

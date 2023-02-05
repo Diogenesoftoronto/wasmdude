@@ -1,0 +1,4 @@
+  <footer>
+    <p class="text-center">Copyright 2022 I am Dio</p>
+  </footer>
+  <script>type Footer struct{}</script>

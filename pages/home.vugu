@@ -1,0 +1,28 @@
+<div>
+
+    <pages role="pages" class="container text-center">
+        <pages:Navigation></pages:Navigation>
+        <pages:Hero ></pages:Hero>
+        <div class="mt-5">
+            <h2>Latest Article</h2>
+            <p> <a href="https://diogenesoftoronto.github.io/blog/2020/05/31/why-i-am-post-anarchist-adjacent.html">Why I am post-anarchist adjacent</a></p>
+              <p> Wasmdude is an application made to show off.🧐
+                  This site and all its flaws are my complete and total ability. 🙄/s</p>
+              <p> Okay, now to be more serious about this, this site takes most of my writing and projects from Github, Discord, etc. and
+              tries to put them in one place that I can display it all.
+              I decided that I would finally create a site no matter how shitty it actually ends up being and this is the result of that work in a a weekend.
+              Continue at your own peril.</p>
+            <h2>Projects</h2>
+            <p> I have a few projects that I am working on. I will try to keep this list updated as I work on them.</p>
+            <ul>
+                <li> <a href="https://github.com/Diogenesoftoronto/wasmdude">wasmdude</a> - This site. I am using Vugo, Caddy and Encore to make this site. That's right, Full-stack Go development. 😎</li>
+                <li> <a href="https://github.com/Diogenesoftoronto/tichu" >tichu</a> - Tichu is a multiplayer card game on the Command Line written in Go. I am using <a href="https://github.com/charmbracelet/bubbletea">bubbletea</a> to create a TUI interface.
+                    The rest is normal Go code, but I have a pretty neat build system and some more plans.</li>
+                    <li> <a href="https://github.com/Diogenesoftoronto/write-and-wood">write-and-wood</a> - This project was created to make it easier to improve as a creative writer. Making writing collaborative and competitive is the goal.
+                    </ul>
+                </div>
+                <pages:Footer />
+            </pages>
+        </div>
+
+

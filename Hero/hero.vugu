@@ -1,0 +1,11 @@
+<div>
+<div class="hero-section">
+  <div class="hero-section-background"style="background-image: url('./hero-background.jpg');">
+    <div class="hero-section-content">
+      <h1 class="hero-section-title">Software Engineer | Go | VR | Politics | Philosophy</h1>
+      <p class="hero-section-subtitle">Bringing the future to life through code</p>
+    </div>
+  </div>
+</div>
+</div>
+<script>type Hero struct {}</script>
