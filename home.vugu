@@ -1,5 +1,4 @@
 <div>
-
     <main role="main" class="container text-center">
         <main:Navigation></main:Navigation>
         <main:Hero ></main:Hero>

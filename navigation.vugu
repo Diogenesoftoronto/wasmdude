@@ -1,7 +1,7 @@
  <header>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid">
-      <a class="navbar-brand" href="#">Wasmdude</a>
+      <button class="navbar-brand" @click='c.Navigate("/", nil)' href='linkFor("/")'>Wasmdude</button>
       <!-- TODO fix nav it is currently broken (vg-if should be used) -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -9,26 +9,28 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <button class="nav-link" @click='c.Navigate("/about-me", nil)' :href='linkFor("about-me")'>About</button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
+            <button class="nav-link" @click='c.Navigate("/projects", nil)' :href='linkFor("projects")'>Projects</button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#philosophy">Articles</a>
+            <button class="nav-link" @click='c.Navigate("/articles", nil)' :href='linkFor("articles")'>Articles</button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#philosophy">Contact</a>
+            <button class="nav-link" @click='c.Navigate("/contact-me", nil)' :href='linkFor("contact-me")'>Contact</button>
           </li>
         </ul>
       </div>
       </div>
     </nav>
   </header>
-  
-  <script>type Navigation struct {
-    Title string
-    Links []Link
-    DefaultSlot
-  }
-  </script>
+
+  <script>import (
+	"github.com/vugu/vgrouter"
+)
+
+type Navigation struct {
+	vgrouter.NavigatorRef
+}
+</script>

@@ -1,8 +1,7 @@
 <div>
-    <main role="main" class="container text-center">
-        <main:Home></main:Home>
-            </main>
-        </div>
+  <main:Home></main:Home>
+  <vg-comp expr="c.Body"/>
+</div>
 <style>
 
 /* body {
