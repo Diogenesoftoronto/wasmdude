@@ -1,2 +1,10 @@
-<div></div>
+<div><h1>Projects</h1>
+            <p> I have a few projects that I am working on. I will try to keep this list updated as I work on them.</p>
+            <ul>
+                <li> <a href="https://github.com/Diogenesoftoronto/wasmdude">wasmdude</a> - This site. I am using Vugo, Caddy and Encore to make this site. That's right, Full-stack Go development. 😎</li>
+                <li> <a href="https://github.com/Diogenesoftoronto/tichu" >tichu</a> - Tichu is a multiplayer card game on the Command Line written in Go. I am using <a href="https://github.com/charmbracelet/bubbletea">bubbletea</a> to create a TUI interface.
+                    The rest is normal Go code, but I have a pretty neat build system and some more plans.</li>
+                    <li> <a href="https://github.com/Diogenesoftoronto/write-and-wood">write-and-wood</a> - This project was created to make it easier to improve as a creative writer. Making writing collaborative and competitive is the goal.
+                    </ul>
+                </div></div>
 <script>type MyProjects struct {}</script>

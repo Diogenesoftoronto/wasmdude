@@ -1,5 +1,4 @@
-<div id="about-me">
-<main:Navigation></main:Navigation>
+<div id="about" role="main" class="container text-center">
 <h1>About Me</h1>
 <p> Introductions are hard. I am dio, a PoC <strong>software</strong> maker and <strong>enby</strong> (planning to write a whole thing about that soon that no one will read).
 I live in a small canadian town and work remote.
@@ -8,6 +7,5 @@ I also love posting about any philosophy papers. I am post-anarchist adjacent po
 I am sure you and the dozens of other similarly politically inclined would be happy for me to tag along in one of your reading groups.
 </p>
 <p>Enjoy my anxiety posting, bye 👋.</p>
-<main:Footer></main:Footer>
 </div>
 <script>type AboutMe struct {}</script>

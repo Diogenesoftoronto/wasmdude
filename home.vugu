@@ -1,6 +1,5 @@
-<div>
+<div id="home">
     <main role="main" class="container text-center">
-        <main:Navigation></main:Navigation>
         <main:Hero ></main:Hero>
         <div class="mt-5">
             <h2>Latest Article</h2>
@@ -11,19 +10,6 @@
               tries to put them in one place that I can display it all.
               I decided that I would finally create a site no matter how shitty it actually ends up being and this is the result of that work in a a weekend.
               Continue at your own peril.</p>
-            <h2>Projects</h2>
-            <p> I have a few projects that I am working on. I will try to keep this list updated as I work on them.</p>
-            <ul>
-                <li> <a href="https://github.com/Diogenesoftoronto/wasmdude">wasmdude</a> - This site. I am using Vugo, Caddy and Encore to make this site. That's right, Full-stack Go development. 😎</li>
-                <li> <a href="https://github.com/Diogenesoftoronto/tichu" >tichu</a> - Tichu is a multiplayer card game on the Command Line written in Go. I am using <a href="https://github.com/charmbracelet/bubbletea">bubbletea</a> to create a TUI interface.
-                    The rest is normal Go code, but I have a pretty neat build system and some more plans.</li>
-                    <li> <a href="https://github.com/Diogenesoftoronto/write-and-wood">write-and-wood</a> - This project was created to make it easier to improve as a creative writer. Making writing collaborative and competitive is the goal.
-                    </ul>
-                </div>
-                <main:Footer />
+
             </main>
         </div>
-
-
-<style>
-</style>
