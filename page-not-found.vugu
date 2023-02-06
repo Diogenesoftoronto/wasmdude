@@ -1,1 +1,3 @@
-<div></div>
+<div>
+<img :src='c.Image'/>
+</div>

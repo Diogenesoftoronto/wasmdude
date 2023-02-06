@@ -1,7 +1,7 @@
  <header>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid">
-      <button class="navbar-brand" @click='c.Navigate("/", nil)' href='linkFor("/")'>Wasmdude</button>
+      <a class="navbar-brand" @click='c.Navigate("/", nil)' href='linkFor("/")'>Wasmdude</a>
       <!-- TODO fix nav it is currently broken (vg-if should be used) -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -9,28 +9,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <button class="nav-link" @click='c.Navigate("/about-me", nil)' :href='linkFor("about-me")'>About</button>
+            <a class="nav-link" @click='c.Navigate("/about-me", nil)' :href='linkFor("about-me")'>About</a>
           </li>
           <li class="nav-item">
-            <button class="nav-link" @click='c.Navigate("/projects", nil)' :href='linkFor("projects")'>Projects</button>
+            <a class="nav-link" @click='c.Navigate("/projects", nil)' :href='linkFor("projects")'>Projects</a>
           </li>
           <li class="nav-item">
-            <button class="nav-link" @click='c.Navigate("/articles", nil)' :href='linkFor("articles")'>Articles</button>
+            <a class="nav-link" @click='c.Navigate("/articles", nil)' :href='linkFor("articles")'>Articles</a>
           </li>
           <li class="nav-item">
-            <button class="nav-link" @click='c.Navigate("/contact-me", nil)' :href='linkFor("contact-me")'>Contact</button>
+            <a class="nav-link" @click='c.Navigate("/contact-me", nil)' :href='linkFor("contact-me")'>Contact</a>
           </li>
         </ul>
       </div>
       </div>
     </nav>
   </header>
-
-  <script>import (
-	"github.com/vugu/vgrouter"
-)
-
-type Navigation struct {
-	vgrouter.NavigatorRef
-}
-</script>

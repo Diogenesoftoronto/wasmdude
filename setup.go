@@ -35,16 +35,16 @@ func vuguSetup(buildEnv *vugu.BuildEnv, eventEnv vugu.EventEnv) vugu.Builder {
 	router.MustAddRouteExact("/", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
 		root.Body = &Home{}
 	}))
-	router.MustAddRouteExact("/page1", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+	router.MustAddRouteExact("/contact-me", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
 		root.Body = &ContactMe{}
 	}))
-	router.MustAddRouteExact("/page2", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+	router.MustAddRouteExact("/about-me", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
 		root.Body = &AboutMe{}
 	}))
-	router.SetNotFound(vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+	router.MustAddRouteExact("/my-projects", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
 		root.Body = &MyProjects{}
 	}))
-	router.SetNotFound(vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+	router.MustAddRouteExact("/my-articles", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
 		root.Body = &MyArticles{}
 	}))
 	router.SetNotFound(vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {

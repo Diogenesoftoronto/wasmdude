@@ -1,5 +1,4 @@
 <div>
-  <main:Home></main:Home>
   <vg-comp expr="c.Body"/>
 </div>
 <style>
