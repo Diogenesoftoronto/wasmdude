@@ -1,2 +1,4 @@
-<div></div>
+<div class="container text-center">
+<main:Article></main:Article>
+</div>
 <script>type MyArticles struct {}</script>
