@@ -25,6 +25,7 @@ func (c *PageNotFound) Init(ctx vugu.InitCtx) {
 
 	c.Loading = true
 	go func() {
+		defer ctx.EventEnv().UnlockRender()
 
 		resp, err := http.Get("http://localhost:4001/main/Generate404")
 		if err != nil {
@@ -45,6 +46,5 @@ func (c *PageNotFound) Init(ctx vugu.InitCtx) {
 		rsp["Message"], _ = filepath.Rel("/home/diogenesoft/goserver/wasmdude", rsp["Message"])
 		c.Image = "/" + rsp["Message"]
 		log.Print(c.Image)
-		ctx.EventEnv().UnlockRender()
-	}()
+		}()
 }
