@@ -1,4 +1,3 @@
 package main
 
-
-type MyProjects struct {}
+type MyProjects struct{}

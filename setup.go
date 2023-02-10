@@ -18,11 +18,11 @@ func vuguSetup(buildEnv *vugu.BuildEnv, eventEnv vugu.EventEnv) vugu.Builder {
 	// if there is a fragment when the page is loaded we go into fragment mode
 	if strings.HasPrefix(js.Global().Get("window").Get("location").Get("hash").String(), "#") {
 		router.SetUseFragment(true)
-		} else {
-			// otherwise we set the path prefix
-			browserPath := path.Clean("/" + js.Global().Get("window").Get("location").Get("pathname").String())
-			pathPrefix := "/" + strings.Split(strings.TrimPrefix(browserPath, "/"), "/")[0]
-			log.Print(pathPrefix)
+	} else {
+		// otherwise we set the path prefix
+		browserPath := path.Clean("/" + js.Global().Get("window").Get("location").Get("pathname").String())
+		pathPrefix := "/" + strings.Split(strings.TrimPrefix(browserPath, "/"), "/")[0]
+		log.Print(pathPrefix)
 	}
 
 	buildEnv.SetWireFunc(func(b vugu.Builder) {

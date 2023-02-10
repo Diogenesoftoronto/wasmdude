@@ -5,11 +5,10 @@ import (
 	"github.com/vugu/vugu"
 )
 
-type Root struct{
+type Root struct {
 	vgrouter.NavigatorRef
 
-    Body vugu.Builder
-
+	Body vugu.Builder
 }
 
 func (c *Root) HandleClick(event vugu.DOMEvent) {

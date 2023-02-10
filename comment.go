@@ -1,18 +1,25 @@
 package main
 
-import "time"
+import (
+	"time"
+
+	"github.com/vugu/vugu"
+)
 
 type Comment struct {
 	Content   string
 	Author    string
 	Published time.Time
 	Likes     int
-	Engagment int
-	Replies []Comment
+	Replies   []Comment
+	Loading   bool
+	vugu.Builder
 }
 
-func (c Comment) CalculateEngagment() {
-	eng := len(c.Replies) + len(c.Replies)*2
-	eng += c.Likes
-	c.Engagment = eng
+func (c *Comment) AddLike() {
+	c.Likes++
+}
+
+func (c *Comment) RemoveLike() {
+	c.Likes--
 }

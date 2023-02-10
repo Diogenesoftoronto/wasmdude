@@ -46,5 +46,5 @@ func (c *PageNotFound) Init(ctx vugu.InitCtx) {
 		rsp["Message"], _ = filepath.Rel("/home/diogenesoft/goserver/wasmdude", rsp["Message"])
 		c.Image = "/" + rsp["Message"]
 		log.Print(c.Image)
-		}()
+	}()
 }
