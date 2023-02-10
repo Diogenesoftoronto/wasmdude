@@ -1,4 +1,4 @@
-package main
+package components
 
 import (
 	pq "github.com/emirpasic/gods/queues/priorityqueue"
@@ -7,7 +7,7 @@ import (
 
 type Articles struct {
 	Items []*Article
-	Topic  string
+	Topic string
 	Order *pq.Queue
 }
 

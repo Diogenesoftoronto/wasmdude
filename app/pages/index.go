@@ -1,16 +1,16 @@
-package main
+package pages
 
 import (
 	"github.com/vugu/vgrouter"
 	"github.com/vugu/vugu"
 )
 
-type Root struct {
+type Index struct {
 	vgrouter.NavigatorRef
 
 	Body vugu.Builder
 }
 
-func (c *Root) HandleClick(event vugu.DOMEvent) {
+func (c *Index) HandleClick(event vugu.DOMEvent) {
 
 }

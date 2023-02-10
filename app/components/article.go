@@ -1,4 +1,4 @@
-package main
+package components
 
 import (
 	"time"
@@ -12,9 +12,9 @@ type Article struct {
 	Text        string
 	PublishDate time.Time
 	Comments
-	Loading   bool
+	Loading    bool
 	Engagement int
-	Likes     int
+	Likes      int
 }
 
 func (c *Article) CalculateEngagement() {
@@ -48,7 +48,3 @@ func (c *Article) RemoveLike() {
 func (c *Article) Compute() {
 	c.CalculateEngagement()
 }
-
-
-
-

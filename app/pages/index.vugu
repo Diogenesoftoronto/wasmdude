@@ -1,9 +1,9 @@
 <div>
-  <main:Navigation></main:Navigation>
+  <components:Navigation></components:Navigation>
     <container role="main" class="most">
       <vg-comp expr="c.Body"/>
     </container>
-  <main:Footer ></main:Footer>
+  <components:Footer ></components:Footer>
 </div>
 <style>
 
