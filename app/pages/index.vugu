@@ -1,9 +1,5 @@
 <div>
-  <components:Navigation></components:Navigation>
-    <container role="main" class="most">
-      <vg-comp expr="c.Body"/>
-    </container>
-  <components:Footer ></components:Footer>
+ 
 </div>
 <style>
 

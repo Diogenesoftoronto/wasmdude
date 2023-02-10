@@ -1,9 +1,9 @@
 package app
 
 import (
-	"github.com/Diogenesoftoronto/wasmdude/app/state"
 	"github.com/Diogenesoftoronto/wasmdude/app/components"
 	"github.com/Diogenesoftoronto/wasmdude/app/pages"
+	"github.com/Diogenesoftoronto/wasmdude/app/state"
 	"github.com/vugu/vgrouter"
 	"github.com/vugu/vugu"
 )
