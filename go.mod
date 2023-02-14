@@ -10,6 +10,7 @@ require (
 require github.com/vugu/html v0.0.0-20190914200101-c62dc20b8289 // indirect
 
 require (
+	github.com/d0sbit/werr v0.0.0-20200314182725-e6d64c4e19e3
 	github.com/emirpasic/gods v1.18.1
 	github.com/vugu/vgrouter v0.0.0-20200725205318-eeb478c42e5d
 	github.com/vugu/xxhash v0.0.0-20191111030615-ed24d0179019 // indirect

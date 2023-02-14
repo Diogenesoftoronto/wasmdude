@@ -8,6 +8,7 @@ import (
 
 	"flag"
 
+	"github.com/Diogenesoftoronto/wasmdude/app"
 	"github.com/vugu/vugu"
 	"github.com/vugu/vugu/domrender"
 )
@@ -31,7 +32,7 @@ func main() {
 		panic(err)
 	}
 
-	rootBuilder := vuguSetup(buildEnv, renderer.EventEnv())
+	_, rootBuilder := app.VuguSetup(buildEnv, renderer.EventEnv(), nil)
 
 	for ok := true; ok; ok = renderer.EventWait() {
 
