@@ -12,13 +12,13 @@
             <a class="nav-link" @click='c.Navigate("about", nil)' href="about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click='c.Navigate("my-projects", nil)' :href='linkFor("my-projects")'>Projects</a>
+            <a class="nav-link" @click='c.Navigate("my-projects", nil)' href="my-projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click='c.Navigate("my-articles", nil)' :href='linkFor("my-articles")'>Articles</a>
+            <a class="nav-link" @click='c.Navigate("my-articles", nil)' href="my-articles">Articles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click='c.Navigate("contact-me", nil)' :href='linkFor("contact-me")'>Contact</a>
+            <a class="nav-link" @click='c.Navigate("contact-me", nil)' href="contact-me">Contact</a>
           </li>
         </ul>
       </div>

@@ -27,7 +27,7 @@ func main() {
 	dev := flag.Bool("dev", false, "Enable development server mode")
 	build := flag.Bool("build", false, "Build static output")
 
-	devhttp := flag.String("devhttp", "127.0.0.1:8921", "In dev mode the host:port to listen on")
+	devhttp := flag.String("devhttp", "localhost:8921", "In dev mode the host:port to listen on")
 
 	flag.Parse()
 

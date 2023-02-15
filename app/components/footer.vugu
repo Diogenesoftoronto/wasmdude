@@ -87,4 +87,3 @@ footer {
     align-items: center;
 }
 </style>
-<script>type Footer struct{ }</script>

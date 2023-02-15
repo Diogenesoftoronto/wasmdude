@@ -1,6 +1,6 @@
 module github.com/Diogenesoftoronto/wasmdude
 
-go 1.20
+go 1.18
 
 require (
 	github.com/vugu/vjson v0.0.0-20200505061711-f9cbed27d3d9

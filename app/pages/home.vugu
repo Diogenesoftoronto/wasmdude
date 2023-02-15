@@ -1,6 +1,5 @@
 <div id="home">
     <main role="main" class="container text-center">
-        <main:Hero ></main:Hero>
         <div class="mt-5">
               <p> Wasmdude is an application made to show off.🧐
                   This site and all its flaws are my complete and total ability. 🙄/s</p>

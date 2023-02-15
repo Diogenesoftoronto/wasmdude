@@ -1,5 +1,5 @@
- <components:Navigation></components:Navigation>
     <container role="main" class="most">
+ <components:Navigation></components:Navigation>
       <vg-comp expr="c.Body"/>
-    </container>
   <components:Footer ></components:Footer>
+    </container>

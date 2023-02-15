@@ -10,7 +10,7 @@ import (
 	"github.com/vugu/vugu"
 )
 
-type PageNotFound struct {
+type NotFound struct {
 	vgrouter.NavigatorRef
 	Image   string `vugu:"data"`
 	Loading bool   `vugu:"data"`
@@ -20,7 +20,7 @@ type Response struct {
 	Msg string `vugu:"data"`
 }
 
-func (c *PageNotFound) Init(ctx vugu.InitCtx) {
+func (c *NotFound) Init(ctx vugu.InitCtx) {
 	// kick of loading data from an endpoint
 
 	c.Loading = true
