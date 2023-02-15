@@ -69,21 +69,3 @@
     </div>
     </nav>
 </footer>
-<style>
-footer svg {
-  width:2rem;
-height:2rem;
-padding-left: 1rem;
-}
-
-footer {
-    background-color: #f8f9fa;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-</style>

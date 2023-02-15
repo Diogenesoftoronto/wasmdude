@@ -1,2 +1,22 @@
 <div class="container text-center">
+<!-- a page for my blogs and other written content -->
+    <h1>My Articles</h1>
+    <p>Here are some of my articles</p>
+    <div class="row">
+        <div class="col-sm-4">
+        <h3>Article 1</h3>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..</p>
+        </div>
+        <div class="col-sm-4">
+        <h3>Article 2</h3>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..</p>
+        </div>
+        <div class="col-sm-4">
+        <h3>Article 3</h3>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..</p>
+        </div>
+    </div>
 </div>

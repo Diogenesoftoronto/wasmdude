@@ -36,3 +36,11 @@ Basically I want to create a new site to host my personal content.
 - calendly integration to setup a meeting with me
 - contact me, join mailing list?
 - linktree integration
+ ## Thursday Presentation
+  1. Routing to be complete! ✅
+  1. Clean up the links in the footer
+  1. I want the contact me page to be complete
+  1. I want to be able to see some articles
+  1. I want to see my latest post in the home page
+  1. BONUS: get comments working
+  1. BONUS: display some github stats

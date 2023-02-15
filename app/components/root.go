@@ -12,6 +12,6 @@ type Root struct {
 	FullBody vugu.Builder // body section without any wrapping
 
 	state.PageInfoRef
-
+	vugu.Builder
 	AutoReload bool // set to true during dev
 }

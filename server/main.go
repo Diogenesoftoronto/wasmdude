@@ -27,7 +27,7 @@ func main() {
 	dev := flag.Bool("dev", false, "Enable development server mode")
 	build := flag.Bool("build", false, "Build static output")
 
-	devhttp := flag.String("devhttp", "localhost:8921", "In dev mode the host:port to listen on")
+	devhttp := flag.String("devhttp", "localhost:8844", "In dev mode the host:port to listen on")
 
 	flag.Parse()
 
@@ -79,7 +79,7 @@ func runDevServer(addr string) {
 		log.Fatal(err)
 	}
 
-	log.Printf("Starting dev server at %q in %q", addr, dir)
+	log.Printf("Starting dev server at http://%s in %q", addr, dir)
 
 	h := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 
