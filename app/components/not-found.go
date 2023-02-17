@@ -22,6 +22,7 @@ func (c *NotFound) Init(ctx vugu.InitCtx) {
 	// kick of loading data from an endpoint
 	c.Loaded = false
 	log.Print("Init")
+	log.Printf("Context: %v", ctx.EventEnv())
 	go c.getRandom404(ctx.EventEnv())
 }
 
@@ -47,7 +48,7 @@ func (c *NotFound) getRandom404(ctx vugu.EventEnv) {
 		return
 	}
 	rsp["Message"], _ = filepath.Rel("/home/diogenesoft/goserver/wasmdude", rsp["Message"])
-
+	log.Print(rsp["Message"])
 	log.Print("Checking Context...")
 	if ctx != nil {
 		log.Printf("context is not nil %s", ctx)

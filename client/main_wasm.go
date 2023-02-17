@@ -32,7 +32,7 @@ func main() {
 		panic(err)
 	}
 
-	rootBuilder := app.VuguSetup(buildEnv, renderer.EventEnv(), nil)
+	_, rootBuilder := app.VuguSetup(buildEnv, renderer.EventEnv(), nil)
 
 	for ok := true; ok; ok = renderer.EventWait() {
 
