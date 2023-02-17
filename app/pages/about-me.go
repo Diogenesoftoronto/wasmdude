@@ -1,4 +1,3 @@
 package pages
 
-
-type AboutMe struct {}
+type AboutMe struct{}

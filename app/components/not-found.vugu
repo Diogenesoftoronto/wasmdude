@@ -1,3 +1,6 @@
 <div>
-<img :src='c.Image'/>
+
+<img vg-if='c.Loaded' :src='c.Image'/>
+<p vg-content='c.Image'></p>
+<p vg-content='c.Loaded'></p>
 </div>
