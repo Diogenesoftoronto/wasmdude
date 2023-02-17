@@ -15,8 +15,6 @@ import (
 	"github.com/Diogenesoftoronto/wasmdude/app/pages"
 	"github.com/vugu/vugu/distutil"
 
-	"github.com/vugu/vgrouter"
-
 	"github.com/d0sbit/werr"
 	"github.com/vugu/vugu"
 	"github.com/vugu/vugu/staticrender"

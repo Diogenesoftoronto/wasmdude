@@ -1,178 +1,21 @@
 <div>
-<div id="index">
+  <div id="index">
     <main role="main" class="container text-center">
-        <div class="mt-5">
-              <p> Wasmdude is an application made to show off.🧐
-                  This site and all its flaws are my complete and total ability. 🙄/s</p>
-              <p> Okay, now to be more serious about this, this site takes most of my writing and projects from Github, Discord, etc. and
-              tries to put them in one place that I can display it all.
-              I decided that I would finally create a site no matter how shitty it actually ends up being and this is the result of that work in a a weekend.
-              </p><p>Continue at your own peril.</p>
-            <h2>Latest Article</h2>
-            <p> <a href="https://diogenesoftoronto.github.io/blog/2020/05/31/why-i-am-post-anarchist-adjacent.html">Why I am post-anarchist adjacent</a></p>
-          </main>
-        </div>
-        <div>
-            <h2>Latest Podcast</h2>
-            <iframe title="podcast" src="https://anchor.fm/diogenesoft/embed/episodes/Episode-1---The-First-Step-e9q0qo" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-        </div>
+      <div class="mt-5">
+        <p> Wasmdude is an application made to show off.🧐
+          This site and all its flaws are my complete and total ability. 🙄/s</p>
+        <p> Okay, now to be more serious about this, this site takes most of my writing and projects from Github,
+          Discord, etc. and
+          tries to put them in one place that I can display it all.
+          I decided that I would finally create a site no matter how shitty it actually ends up being and this is the
+          result of that work in a a weekend.
+        </p>
+        <p>Continue at your own peril.</p>
+        <h2>Latest Article</h2>
+        <p> <a href="https://diogenesoftoronto.github.io/blog/2020/05/31/why-i-am-post-anarchist-adjacent.html">Why I am
+            post-anarchist adjacent</a></p>
+    </main>
+  </div>
 </div>
 
-<style>
-
-/* body {
-    background-color: #333333;
-    color: #C0C0C0;
-  }
-
-  h1, h2, h3 {
-    color: #7DF9FF;
-  }
-
-  a {
-    color: #FFA500;
-  }
-
-  .highlight {
-    background-color: #FF69B4;
-    color: #fff0f0;
-  }
-
-  button {
-    background-color: #00FF00;
-    color: #fff0f0;
-  } */
-/*
- body {
-    background-color: #232323;
-    color: #dddddd;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-  }
-
-  h1, h2, h3 {
-    color: #ff5500;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-
-  .container {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 30px;
-  }
-
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-
-  .header__logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff5500;
-    text-transform: uppercase;
-  }
-
-  .header__nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .header__nav-item {
-    margin-left: 20px;
-  }
-
-  .header__nav-link {
-    color: #dddddd;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  .header__nav-link:hover {
-    color: #ff5500;
-  }
-
-  .section {
-    background-color: #353535;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #dddddd;
-  }
-
-  .section__title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ff5500;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-
-  .btn {
-    background-color: #ff5500;
-    color: #232323;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    margin-top: 20px;
-    display: inline-block;
-  }
-
-  .btn:hover {
-    background-color: #dddddd;
-    color: #232323;
-    cursor: pointer;
-  }*/
-
-  /*<div>
-    <main role="main" class="container text-center">
-        <navigation />
-        <top />
-        <div class="mt-5">
-            <h1>Wasmdude</h1>
-            <!-- create an overview of all the recent stuff I have been doing -->
-            <!-- A little form to describe who you are so i can deliver main that are relevant to you
-                for example, if you are a developer, I can show you my projects and if you are a writer, I can show you my writing.
-                If you are offering me a job, I can show you my resume, if you give me your contact information and company and the form to contact looks different. -->
-            -->
-            <h2>latest podcast</h2>
-            <iframe title="podcast" src="https://anchor.fm/diogenesoft/embed/episodes/Episode-1---The-First-Step-e9q0qo" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-            <h2>latest blog post</h2>
-            <p> <a href="https://diogenesoftoronto.github.io/blog/2020/05/31/why-i-am-post-anarchist-adjacent.html">Why I am post-anarchist adjacent</a></p>
-            <h2>latest commits</h2>
-            <p> <a href="https://github.com/Diogenesoftoronto/wasmdude/commit/2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b">Commit title</a></p>
-            <h2>latest live stream</h2>
-            <p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">I am not live streaming right now</a></p>
-              <p> Wasmdude is an application made to show off.🧐
-                  This site and all its flaws are my complete and total ability. 🙄/s</p>
-              <p> Okay, now to be more serious about this, this site takes most of my writing and projects from Github, Discord, etc. and
-              tries to put them in one place that I can display it all.
-              I decided that I would finally create a site no matter how shitty it actually ends up being and this is the result of that work in a a weekend.
-              Continue at your own peril.</p>
-              <h2>About Me</h2>
-              <p> Introductions are hard. I am dio, a PoC <strong>software</strong> maker and <strong>enby</strong>(planning to write a whole thing about that soon that no one will read).
-                I live in a small canadian town and work remote.
-                Looking to contribute to <strong>#FOSS</strong> and learn more about <strong>#3dprinting</strong> and <strong>#datascience</strong>.
-                I also love posting about any philosophy papers. I am post-anarchist adjacent politically 🏴. If you know what that means (because I don't), that's awesome.
-                I am sure you and the dozens of other similarly politically inclined would be happy for me to tag along in one of your reading groups.
-            </p>
-            <p>Enjoy my anxiety posting, bye 👋.</p>
-            <h2>Projects</h2>
-            <p> I have a few projects that I am working on. I will try to keep this list updated as I work on them.</p>
-            <ul>
-                <li> <a href="https://github.com/Diogenesoftoronto/wasmdude">wasmdude</a> - This site. I am using Vugo, Caddy and Encore to make this site. That's right, Full-stack Go development. 😎</li>
-                <li> <a href="https://github.com/Diogenesoftoronto/tichu" >tichu</a> - Tichu is a multiplayer card game on the Command Line written in Go. I am using <a href="https://github.com/charmbracelet/bubbletea">bubbletea</a> to create a TUI interface.
-                    The rest is normal Go code, but I have a pretty neat build system and some more plans.</li>
-                    <li> <a href="https://github.com/Diogenesoftoronto/write-and-wood">write-and-wood</a> - This project was created to make it easier to improve as a creative writer. Making writing collaborative and competitive is the goal.
-                    </ul>
-                </div>
-                <foot />
-            </main>
-        </div>*/
-</style>
+  

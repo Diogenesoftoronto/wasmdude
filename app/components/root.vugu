@@ -48,6 +48,7 @@
     <div id="root">
         <components:Navigation></components:Navigation>
         <vg-comp expr="c.Body"></vg-comp>
+        <vg-comp expr="c.FullBody"></vg-comp>
         <components:Footer></components:Footer>
     </div>
 
