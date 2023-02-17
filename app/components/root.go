@@ -6,9 +6,7 @@ import (
 )
 
 type Root struct {
-	Hero     vugu.Builder // below header but above Body
 	Body     vugu.Builder // main body content
-	Sidebar  vugu.Builder // sidebar to right of Body
 	FullBody vugu.Builder // body section without any wrapping
 
 	state.PageInfoRef
