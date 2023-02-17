@@ -1,4 +1,3 @@
 package pages
 
-type Index struct {
-}
+type Index struct{}

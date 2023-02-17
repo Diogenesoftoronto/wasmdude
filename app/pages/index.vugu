@@ -10,10 +10,14 @@
               </p><p>Continue at your own peril.</p>
             <h2>Latest Article</h2>
             <p> <a href="https://diogenesoftoronto.github.io/blog/2020/05/31/why-i-am-post-anarchist-adjacent.html">Why I am post-anarchist adjacent</a></p>
-
-            </main>
+          </main>
+        </div>
+        <div>
+            <h2>Latest Podcast</h2>
+            <iframe title="podcast" src="https://anchor.fm/diogenesoft/embed/episodes/Episode-1---The-First-Step-e9q0qo" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
         </div>
 </div>
+
 <style>
 
 /* body {
