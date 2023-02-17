@@ -98,14 +98,14 @@ func runDevServer(addr string) {
 				renderer := staticrender.New(&rbuf)
 				app, rootBuilder := app.VuguSetup(buildEnv, renderer.EventEnv(), &app.VuguSetupOptions{AutoReload: true})
 
-				notFound := false
-				nfh := app.Router.GetNotFound()
-				app.Router.SetNotFound(vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
-					notFound = true
-					if nfh != nil {
-						nfh.RouteHandle(rm)
-					}
-				}))
+				// notFound := false
+				// nfh := app.Router.GetNotFound()
+				// app.Router.SetNotFound(vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+				// 	notFound = true
+				// 	if nfh != nil {
+				// 		nfh.RouteHandle(rm)
+				// 	}
+				// }))
 
 				app.Router.ProcessRequest(r)
 
@@ -115,9 +115,9 @@ func runDevServer(addr string) {
 					return err
 				}
 
-				if notFound {
-					w.WriteHeader(404)
-				}
+				// if notFound {
+				// 	w.WriteHeader(404)
+				// }
 				w.Write(rbuf.Bytes())
 
 				return nil
